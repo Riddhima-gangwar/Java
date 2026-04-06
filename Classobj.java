@@ -14,6 +14,11 @@ public class Classobj {
         d2.walk();
         d2.bark();
 
+        Complex c1=new Complex();
+        c1.a=2;
+        c1.b=3;
+        c1.print();
+
     }
 }
 class Dog{
