@@ -1,5 +1,5 @@
 class Parent {
-    String name = "Parent";
+    String1 name = "Parent";
 
     void help() {
         System.out.println("Help in parent class");
@@ -9,7 +9,7 @@ class Parent {
 // super == direct connection with parent
 class Child extends Parent {
 
-    String name = "Child";
+    String1 name = "Child";
 
     void help() {
         System.out.println("Help in child class");
@@ -26,7 +26,7 @@ class Child extends Parent {
 }
 
 public class Super {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
 
         Child c = new Child();
 

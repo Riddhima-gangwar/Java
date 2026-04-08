@@ -3,7 +3,7 @@ import java.util.*;
 public class Superkeyword {
     int age = 18; 
 
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         Superkeyword obj = new Superkeyword();
         Child c = obj.new Child(); 
         c.show();

@@ -23,7 +23,7 @@ abstract class Test {
 }
 public class Abstract {
 
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
        
     }
 }

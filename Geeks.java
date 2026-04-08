@@ -3,7 +3,7 @@
 import java.util.Arrays;
 
 public class Geeks {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
 
         int[] arr1 = { 10, 20, 30, 40 };
         int[] arr2 = { 50, 60, 70, 80 };

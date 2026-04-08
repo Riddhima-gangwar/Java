@@ -1,5 +1,5 @@
 public class Classobj {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         Dog d1=new Dog();
         d1.name="Tommy";
         d1.age=5;
@@ -22,9 +22,9 @@ public class Classobj {
     }
 }
 class Dog{
-    String name;
+    String1 name;
     int age;
-    String color;
+    String1 color;
 
     void walk(){
         System.out.println(name + " is walking");

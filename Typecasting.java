@@ -1,5 +1,5 @@
 public class Typecasting {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
        double d= 9.23;
        int i  = (int)d;
 

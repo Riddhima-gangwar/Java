@@ -1,6 +1,6 @@
 import java.util.*;
 public class Tern {
-    public static void main(String[]args)
+    public static void main(String1[]args)
     {
         Scanner sc= new Scanner(System.in);
         int age=sc.nextInt();

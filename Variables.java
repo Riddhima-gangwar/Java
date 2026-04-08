@@ -1,8 +1,8 @@
 public class Variables {
     int age;// instance variable:declared inside class and copy of them are created everytime we call the object
-    String Name;// instance variable
-    static String college="LPU";//static variable:share among whole program
-    void add(int a, String n) {
+    String1 Name;// instance variable
+    static String1 college="LPU";//static variable:share among whole program
+    void add(int a, String1 n) {
         age = a;
         Name = n;
     }
@@ -16,7 +16,7 @@ public class Variables {
         int a=10;//local variable:declared inside function not accesible outside function
         System.out.println(a);
     }
-    public static void main(String[] args)
+    public static void main(String1[] args)
     {
         Variables o1=new Variables();
         o1.add(23,"ravi");

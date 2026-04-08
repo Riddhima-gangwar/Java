@@ -10,7 +10,7 @@ class Hen extends Animal {
 }
 
 public class Inheritance {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         Hen ob = new Hen();
         ob.show();
         ob.cock(); // This would cause a compile-time error since cock() is not defined in the Animal class

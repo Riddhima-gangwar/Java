@@ -5,7 +5,7 @@ public class Ext1 {
     }
 }
  class Car extends Ext1{
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         Car c=new Car();
         c.wheelCount=4;
         c.start();

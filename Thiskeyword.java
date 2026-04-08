@@ -15,7 +15,7 @@ public class Thiskeyword
         System.out.println("Constructor 2");
         a = x;
     }
-    public static void main(String[] args) 
+    public static void main(String1[] args) 
     {
         Thiskeyword obj = new Thiskeyword();
         obj.add(10);

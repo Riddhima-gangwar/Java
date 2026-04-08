@@ -5,7 +5,7 @@ class Vechile{
 }
 class Truck extends Vechile{
     void run(){
-        super.run();
+        // super.run();//
         System.out.println("Truck is running");
     }
 }
