@@ -7,32 +7,46 @@
 
 
 
-abstract class Test {
-    public Test() {
-        System.out.println("Constructor of Test");
-    }
-    public abstract void display();
-    void hello() {
-        System.out.println("Hello from Test");
-    }   
-    class abc extends Test {
-        public void display() {
-            System.out.println("Display method in abc");
-        }
+// abstract class Test {
+//     public Test() {
+//         System.out.println("Constructor of Test");
+//     }
+
+//     public abstract void display();
+
+//     void hello() {
+//         System.out.println("Hello from Test");
+//     }
+
+//     static class abc extends Test {
+//         public void display() {
+//             System.out.println("Display method in abc");
+//         }
+//     }
+// }
+
+// public class Abstract {
+//     public static void main(String[] args) {
+//         Test.abc obj = new Test.abc();  
+//         obj.display();
+//         obj.hello();
+//     }
+// }
+
+
+
+abstract class A{
+    abstract void display();
+}
+class B extends A{
+    void display(){
+        System.out.println("Display method in B");
     }
 }
 public class Abstract {
-
-    public static void main(String1[] args) {
-       
+    public static void main(String[] args) {
+        A obj = new B();
+        obj.display();
     }
 }
-
-
-//interface as a blueprint of a class
-//every func in an interface is public and abstract by default
-//in this each variable is treated as a constant/final by default
-//final  method cannot override
-//a final class cannot be inherited in child class
-
 
