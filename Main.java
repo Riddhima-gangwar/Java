@@ -69,67 +69,56 @@
 //     }
 // }
 
-
-
-
-
-
-//single inheritance
 // import java.util.*;
 
-// class LPU{
-//     void animal(){
-//         System.out.println("Animal is eating");
+// abstract class Animal{
+//     abstract void sound();
+// } 
+
+// class Dog extends Animal{
+//     @Override
+//     void sound(){
+//         System.out.println("himanshu is a strict teacher");
+//     }
+// }
+// public class  Abstract1{
+//     public static void main(String[] args) {
+//         Dog d= new Dog();
+//         d.sound();
 //     }
 // }
 
-// class Hate extends LPU{
-//     void UMS(){
-//         System.out.println("UMS is eating");
-//     }
-// }
-
-
-// public class Inheritance1 {
-//     public static void main(String args[]){
-//         Hate h= new Hate();
-//         h.animal();
-//         h.UMS();
-//     }
-// }
-
-
-
-
-// multilevel inheritance
 import java.util.*;
+abstract class Vehicle {
 
-class Animal{
-    void eat()
-    {
-        System.out.println("lpu is eating");
+    abstract void start();
+
+    void fuel() {
+        System.out.println("Vehicle needs fuel");
     }
 }
-class Dog extends Animal{
-    void bark()
-    {
-        System.out.println("dog is barking");
+
+class Car extends Vehicle {
+
+    @Override
+    void start() {
+        System.out.println("Car starts with key");
     }
 }
-class Puppy extends Dog{
-    void weep()
-    {
-        System.out.println("puppy is saying hello");
-    }
-}
-class Inheritance1{
+
+public class Main {
+
     public static void main(String[] args) {
-       Puppy p=new Puppy();
-       p.bark();
-       p.eat();
-       p.weep(); 
+
+        Car c = new Car();
+        c.fuel();
+        c.start();
+
+        
     }
 }
+
+
 
 
 

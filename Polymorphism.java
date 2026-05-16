@@ -16,3 +16,4 @@ public class Polymorphism {
         ob.run();
     }
 }
+//different parameters 
